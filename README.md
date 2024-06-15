@@ -1,6 +1,6 @@
 # LLARVA
 
-This is the repository that contains source code for the [LLARVA website](https://llarva.github.io).
+This is the repository that contains source code for the [LLARVA website](https://llarva24.github.io).
 
 If you find U2Seg useful for your work please cite:
 ```
