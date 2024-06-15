@@ -1,12 +1,12 @@
-# U2Seg
+# LLARVA
 
-This is the repository that contains source code for the [U2Seg website](https://u2seg.github.io).
+This is the repository that contains source code for the [LLARVA website](https://llarva.github.io).
 
 If you find U2Seg useful for your work please cite:
 ```
 @misc{niu2023unsupervised,
-      title={Unsupervised Universal Image Segmentation}, 
-      author={Dantong Niu and Xudong Wang and Xinyang Han and Long Lian and Roei Herzig and Trevor Darrell},
+      title={?}, 
+      author={?},
       year={2023},
       eprint={2312.17243},
       archivePrefix={arXiv},
