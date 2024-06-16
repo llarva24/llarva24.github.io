@@ -190,12 +190,8 @@ body {
 }
  */
 #llarva-logo {
-  position: absolute;
-  width: 65px; /* Adjust size as needed */
-  /* Initial position off-screen */
-  top: 50%;
-  left: -100px; /* Start off-screen */
-  /*transform: translateY(-50%);*/
+  position: relative;
+  left: -100%;
   animation: crawl 5s ease-out forwards;
 }
 
