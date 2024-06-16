@@ -223,5 +223,5 @@ body {
 
 /* Apply the animation when the animate class is added */
 #llarva-logo.animate {
-  animation: crawlIn 2s forwards;
+  animation: slideIn 2s forwards;
 }
