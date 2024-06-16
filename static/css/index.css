@@ -171,3 +171,35 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+
+
+/* Initial styles for the logo */
+#llarva-logo {
+  position: relative;
+  left: -100%;
+  transition: left 1s ease-in-out;
+}
+
+/* Container to hold the logo */
+.logo-container {
+  display: flex;
+  justify-content: flex-start; /* Aligns logo to the left initially */
+  overflow: hidden; /* Ensures the logo is not visible outside the container */
+  height: 100px; /* Adjust height as necessary */
+}
+
+/* Keyframes for the animation */
+@keyframes slideIn {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+/* Apply the animation when the page loads */
+#llarva-logo.animate {
+  animation: slideIn 1s forwards;
+}
