@@ -191,11 +191,29 @@ body {
 
 /* Keyframes for the animation */
 @keyframes slideIn {
-  from {
+/*   from {
     left: -100%;
   }
   to {
     left: 0;
+  } */
+   0% {
+    transform: translateX(-100%) rotate(0deg);
+  }
+  20% {
+    transform: translateX(-80%) rotate(10deg);
+  }
+  40% {
+    transform: translateX(-60%) rotate(-10deg);
+  }
+  60% {
+    transform: translateX(-40%) rotate(10deg);
+  }
+  80% {
+    transform: translateX(-20%) rotate(-10deg);
+  }
+  100% {
+    transform: translateX(0%) rotate(0deg);
   }
 }
 
