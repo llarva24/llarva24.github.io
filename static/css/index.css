@@ -220,4 +220,5 @@ body {
 /* Apply the animation when the page loads */
 #llarva-logo.animate {
   animation: slideIn 1s forwards;
+  position: relative;
 }
