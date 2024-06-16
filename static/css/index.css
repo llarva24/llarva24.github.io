@@ -192,7 +192,7 @@ body {
 #llarva-logo {
   position: relative;
   left: -100%;
-  animation: fadeIn 2s ease-out forwards, crawl 4s ease-out 2s forwards; /* Combine animations */
+  animation: fadeIn 1s ease-out forwards, crawl 4s ease-out 2s forwards; /* Combine animations */
 }
 
 @keyframes fadeIn {
