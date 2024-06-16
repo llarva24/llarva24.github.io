@@ -195,8 +195,8 @@ body {
   /* Initial position off-screen */
   top: 50%;
   left: -100px; /* Start off-screen */
-  transform: translateY(-50%);
-  animation: crawl 3s ease-out forwards;
+  /*transform: translateY(-50%);*/
+  animation: crawl 5s ease-out forwards;
 }
 
 @keyframes crawl {
@@ -205,6 +205,5 @@ body {
   }
   100% {
     left: 0; /* Final position */
-    transform: translateY(-50%);
   }
 }
