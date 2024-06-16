@@ -217,8 +217,11 @@ body {
   }
 }
 
-/* Apply the animation when the page loads */
+#llarva-logo {
+  position: relative; /* Ensure the element is positioned relative to its normal position */
+}
+
+/* Apply the animation when the animate class is added */
 #llarva-logo.animate {
-  animation: slideIn 1s forwards;
-  position: relative;
+  animation: crawlIn 2s forwards;
 }
