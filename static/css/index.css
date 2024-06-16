@@ -193,6 +193,7 @@ body {
   position: relative;
   left: -100%;
   animation: crawl 4s ease-out forwards;
+  animation-delay: 2s;
 }
 
 @keyframes crawl {
