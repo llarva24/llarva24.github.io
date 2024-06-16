@@ -174,54 +174,37 @@ body {
 
 
 
-/* Initial styles for the logo */
+/* 
 #llarva-logo {
   position: relative;
   left: -100%;
   transition: left 1s ease-in-out;
 }
 
-/* Container to hold the logo */
+
 .logo-container {
   display: flex;
-  justify-content: flex-start; /* Aligns logo to the left initially */
-  overflow: hidden; /* Ensures the logo is not visible outside the container */
-  height: 100px; /* Adjust height as necessary */
+  justify-content: flex-start;
+  overflow: hidden; 
+  height: 100px; 
+}
+ */
+#llarva-logo {
+  position: absolute;
+  width: 65px; /* Adjust size as needed */
+  /* Initial position off-screen */
+  top: 50%;
+  left: -100px; /* Start off-screen */
+  transform: translateY(-50%);
+  animation: crawl 3s ease-out forwards;
 }
 
-/* Keyframes for the animation */
-@keyframes slideIn {
-/*   from {
-    left: -100%;
-  }
-  to {
-    left: 0;
-  } */
-   0% {
-    transform: translateX(-100%) rotate(0deg);
-  }
-  20% {
-    transform: translateX(-80%) rotate(10deg);
-  }
-  40% {
-    transform: translateX(-60%) rotate(-10deg);
-  }
-  60% {
-    transform: translateX(-40%) rotate(10deg);
-  }
-  80% {
-    transform: translateX(-20%) rotate(-10deg);
+@keyframes crawl {
+  0% {
+    left: -100px; /* Start off-screen */
   }
   100% {
-    transform: translateX(0%) rotate(0deg);
+    left: 0; /* Final position */
+    transform: translateY(-50%);
   }
-}
-
-#llarva-logo {
-  position: relative; /* Ensure the element is positioned relative to its normal position */
-}
-
-/* Apply the animation when the animate class is added */
-#llarva-logo.animate {
-  animation: slideIn 2s forwards;
 }
