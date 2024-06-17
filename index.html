@@ -185,7 +185,7 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Demonstrations on a Real Robot</h2>
+        <h2 class="title is-3">Real Robot Demonstrations</h2>
       </div>
     </div>
   </div>
@@ -281,7 +281,7 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Demonstrations on RLBench</h2>
+        <h2 class="title is-3">RLBench Demonstrations</h2>
       </div>
     </div>
   </div>
@@ -385,7 +385,7 @@
             Additionally, we show that predicting intermediate 2-D representations, which we refer to as "visual traces", can help further align vision and action spaces for robot learning.
             We generate 8.5M image-visual trace pairs from the Open X-Embodiment dataset in order to pre-train our model,
             and we evaluate on 18 different tasks in the RLBench simulator as well as a physical Franka Emika Panda 7-DoF robot.
-            Our experiments yield strong performance, demonstrating that LLARVA---using 2-D and language representations---performs well compared to several contemporary baselines, and can generalize across various robot environments and configurations.
+            Our experiments yield strong performance, demonstrating that LLARVA — using 2-D and language representations — performs well compared to several contemporary baselines, and can generalize across various robot environments and configurations.
           </p>
           </p>
         </div>
@@ -402,15 +402,14 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">What is "Vision-Action Instruct Tuning"?</h2>
+        <h2 class="title is-3">What is "Vision-Action Instruction Tuning"?</h2>
         <img style="width:950px" src="./static/gif/teaser_2.gif">
 
         <div class="subtitle content has-text-justified">
           <p>&nbsp;</p>
           We introduce a novel instruction tuning method that leverages structured prompts to unify a range of robotic learning tasks,
-          scenarios, and environments and 2-D visual traces to further align vision and action spaces.
-          The model works via a language instruction that contains <strong>robot model</strong>, <strong>control mode</strong>, <strong>robot task</strong>, <strong>proprioceptive information</strong>,
-          and <strong>number of predicted steps</strong> , and outputs text with the next robot action(s) and the visual trace for the remainder of the episode.
+          scenarios, and environments. In particular, the model works via a language instruction that contains <strong>robot model</strong>, <strong>control mode</strong>, <strong>robot task</strong>, <strong>proprioceptive information</strong>,
+          and <strong>number of predicted steps</strong> , and outputs text with the next robot action(s) and the visual trace for the remainder of the episode.  The concept of the 2-D visual trace is introduced to help localize the end-effector and further align the vision and action spaces.
           <p>&nbsp;</p>
         </div>
 
@@ -426,7 +425,7 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">The Architecture of LLARVA</h2>
+        <h2 class="title is-3">The LLARVA Architecture</h2>
         <img style="width:500px" src="./static/images/architecture.jpg">
 
         <div class="subtitle content has-text-justified">
